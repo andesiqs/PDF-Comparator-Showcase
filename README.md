@@ -24,10 +24,10 @@ Initiated and developed independently to solve a critical operational bottleneck
 
 ## 🧠 Architecture & Tech Stack
 
-1. **Image Processing Engine:** * `pdf2image` & `poppler` for high-fidelity vector-to-raster conversion.
+1. **Image Processing Engine:** `pdf2image` & `poppler` for high-fidelity vector-to-raster conversion.
    * `OpenCV` (cv2) for grayscale conversion, absolute differencing, binary thresholding, and contour detection.
-2. **Text Analysis (OCR):** * `pytesseract` to extract and compare text blobs, ignoring elements that simply moved coordinates without changing content.
-3. **Frontend / UX:** * `CustomTkinter` for the desktop application.
+2. **Text Analysis (OCR):**  `pytesseract` to extract and compare text blobs, ignoring elements that simply moved coordinates without changing content.
+3. **Frontend / UX:**  `CustomTkinter` for the desktop application.
    * Native `HTML/CSS/JavaScript` injected programmatically via Python to create the offline, interactive evidence reports.
 
 ## 📸 Visual Showcase

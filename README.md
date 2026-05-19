@@ -34,15 +34,16 @@ Initiated and developed independently to solve a critical operational bottleneck
 
 ### 1. Desktop Application Interface
 *(Insert a screenshot of the CustomTkinter UI here)*
-`![App UI](assets/ui_screenshot.png)`
+![App UI](assets/menu_UI.gif)  
+![App UI](assets/menu_UI2.gif)
 
 ### 2. Interactive Side-by-Side Report (Sync Scroll)
 *(Insert a short GIF showing the HTML report, clicking an image, and panning/zooming with sync scroll)*
-`![Sync Scroll Demo](assets/sync_scroll.gif)`
+![Sync Scroll Demo](assets/sync_scroll.gif)
 
 ### 3. Visual Evidence Detection
 *(Insert a screenshot showing the red circles highlighting differences between two blueprints)*
-`![Difference Detection](assets/detection_example.png)`
+![Difference Detection](assets/detection_example.png)
 
 ---
-*Created by [Seu Nome/LinkedIn](Link para o seu LinkedIn)* | *Role: Apprentice Developer*
+*Created by Anderson Siqueira Souto / www.linkedin.com/in/anderson-siqueira-souto | *Role: Apprentice Developer*

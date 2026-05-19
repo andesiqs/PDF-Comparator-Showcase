@@ -19,6 +19,7 @@
   <img src="https://img.shields.io/badge/Status-Production-brightgreen?style=flat-square">
   <img src="https://img.shields.io/badge/Type-Proprietary-red?style=flat-square">
   <img src="https://img.shields.io/badge/Role-Apprentice_Developer-blue?style=flat-square">
+  <img src="https://img.shields.io/badge/Since-September%202025-orange?style=flat-square">
 </p>
 
 ---
@@ -33,7 +34,7 @@
 
 **PDF Comparator** is an automated visual inspection tool built to detect structural and textual discrepancies between complex engineering drawings.
 
-Initiated and developed independently to solve a critical operational bottleneck, the software processes large batches of high-resolution PDFs, compares them pixel-by-pixel, and generates interactive HTML/JS reports for the engineering team to review.
+Initiated and independently developed since **September 2025** to solve a critical operational bottleneck, the software processes large batches of high-resolution PDFs, compares them pixel-by-pixel, and generates interactive HTML/JS reports for the engineering team to review.
 
 > ⚠️ **Note:** This repository is a portfolio showcase. Source code and executables are proprietary and not publicly available to ensure corporate data compliance.
 

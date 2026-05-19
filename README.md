@@ -11,14 +11,14 @@
 
 > **Business Impact:** Engineered a Computer Vision solution that reduced engineering blueprint analysis time by **99%** (from 48 hours to 5 minutes) while eliminating human error in visual inspections.
 
-## 📌 Project Overview
+## Project Overview
 **PDF Comparator** is an automated visual inspection tool built to detect structural and textual discrepancies between complex engineering drawings. 
 
 Initiated and developed independently to solve a critical operational bottleneck, the software processes large batches of high-resolution PDFs, compares them pixel-by-pixel, and generates interactive HTML/JS reports for the engineering team to review.
 
 *Note: This repository serves as a portfolio showcase. The source code and executable are proprietary and not publicly available to ensure corporate data compliance.*
 
-## 🚀 Key Features
+## Key Features
 
 * **High-Performance Batch Processing:** Utilizes Python's `ThreadPoolExecutor` for multithreaded analysis, allowing the system to process entire directories of blueprints concurrently.
 * **Intelligent Noise Filtering:** Integrates **Tesseract OCR** to filter out false positives caused by text displacement, focusing only on genuine structural alterations.

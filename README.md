@@ -9,17 +9,18 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
-  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" alt="OpenCV">
+  <img src="https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python">
+  <img src="https://img.shields.io/badge/OpenCV-27338e?style=for-the-badge&logo=OpenCV&logoColor=white" alt="OpenCV">
   <img src="https://img.shields.io/badge/Tesseract_OCR-43B02A?style=for-the-badge&logo=tesseract&logoColor=white" alt="Tesseract OCR">
-  <img src="https://img.shields.io/badge/HTML5_&_JS-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5/JS">
+  <img src="https://img.shields.io/badge/HTML5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
+  <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JavaScript">
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Status-Production-brightgreen?style=flat-square">
-  <img src="https://img.shields.io/badge/Type-Proprietary-red?style=flat-square">
-  <img src="https://img.shields.io/badge/Role-Apprentice_Developer-blue?style=flat-square">
-  <img src="https://img.shields.io/badge/Since-September%202025-orange?style=flat-square">
+  <img src="https://img.shields.io/badge/Status-Production-brightgreen?style=flat-square" alt="Status">
+  <img src="https://img.shields.io/badge/Type-Proprietary-red?style=flat-square" alt="Type">
+  <img src="https://img.shields.io/badge/Role-Apprentice_Developer-blue?style=flat-square" alt="Role">
+  <img src="https://img.shields.io/badge/Since-September%202025-orange?style=flat-square" alt="Since">
 </p>
 
 ---
@@ -54,7 +55,7 @@ Initiated and independently developed since **September 2025** to solve a critic
 
 ## 🏗️ Architecture & Tech Stack
 
-```
+```text
 PDF Input
    │
    ▼

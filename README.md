@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/icon_256.png" alt="Logo PDF Comparator" width="150">
+</p>
+  
 # 📄 PDF Comparator | Computer Vision & Deep Learning
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)

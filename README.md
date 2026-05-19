@@ -46,5 +46,6 @@ Initiated and developed independently to solve a critical operational bottleneck
 ### 3. Visual Evidence Detection
 ![Difference Detection](assets/detection_example.png)
 
----
-**Created by Anderson Siqueira Souto / www.linkedin.com/in/anderson-siqueira-souto** | **Role: Apprentice Developer**
+---  
+
+**Created by [Anderson Siqueira Souto](https://www.linkedin.com/in/anderson-siqueira-souto)** | **Role: Apprentice Developer**

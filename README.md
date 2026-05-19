@@ -89,8 +89,15 @@ PDF Input
 
 ### Desktop Application Interface
 
-![App UI](assets/menu_UI.gif)
-![App UI](assets/menu_UI2.gif)
+![App UI](assets/menu_UI.gif)  
+
+---
+
+![App UI](assets/menu_UI2.gif)  
+
+---  
+
+![App UI](assets/menu_UI3.gif)
 
 ---
 

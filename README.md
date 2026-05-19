@@ -16,7 +16,7 @@
 
 Initiated and developed independently to solve a critical operational bottleneck, the software processes large batches of high-resolution PDFs, compares them pixel-by-pixel, and generates interactive HTML/JS reports for the engineering team to review.
 
-⚠️ *Note: This repository serves as a portfolio showcase. The source code and executable are proprietary and not publicly available to ensure corporate data compliance.*
+*Note: This repository serves as a portfolio showcase. The source code and executable are proprietary and not publicly available to ensure corporate data compliance.*
 
 ## 🚀 Key Features
 
@@ -26,7 +26,7 @@ Initiated and developed independently to solve a critical operational bottleneck
 * **Adjustable Sensitivity Profiles:** Built-in thresholding profiles (Conservative to Extreme) and custom parameters (Min Area, Padding Margin) to adapt the Computer Vision engine to different types of engineering plants.
 * **Modern UI:** Built with `CustomTkinter`, providing a dark-mode, user-friendly interface for non-technical users to configure parameters and monitor execution.
 
-## 🧠 Architecture & Tech Stack
+## Architecture & Tech Stack
 
 1. **Image Processing Engine:** `pdf2image` & `poppler` for high-fidelity vector-to-raster conversion.
    * `OpenCV` (cv2) for grayscale conversion, absolute differencing, binary thresholding, and contour detection.
@@ -34,7 +34,7 @@ Initiated and developed independently to solve a critical operational bottleneck
 3. **Frontend / UX:**  `CustomTkinter` for the desktop application.
    * Native `HTML/CSS/JavaScript` injected programmatically via Python to create the offline, interactive evidence reports.
 
-## 📸 Visual Showcase
+## Visual Showcase
 
 ### 1. Desktop Application Interface
 ![App UI](assets/menu_UI.gif)  

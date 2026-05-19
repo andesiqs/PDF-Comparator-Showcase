@@ -9,7 +9,7 @@
 ![Tesseract OCR](https://img.shields.io/badge/Tesseract_OCR-43B02A?style=for-the-badge&logo=tesseract&logoColor=white)
 ![HTML5/JS](https://img.shields.io/badge/HTML5_&_JS-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 
-> **Business Impact:** Engineered a Computer Vision solution that reduced engineering blueprint analysis time by **99%** (from 48 hours to 5 minutes) while eliminating human error in visual inspections.
+> **Business Impact:** Engineered a Computer Vision solution that reduced engineering blueprint analysis time by **99%** (from 12 hours to 5 minutes) while eliminating human error in visual inspections.
 
 ## Project Overview
 **PDF Comparator** is an automated visual inspection tool built to detect structural and textual discrepancies between complex engineering drawings. 

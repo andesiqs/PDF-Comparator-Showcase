@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <img src="https://wallspic.com/image/163391-logo_python-python-logo-programming_language-standing&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
   <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" alt="OpenCV">
   <img src="https://img.shields.io/badge/Tesseract_OCR-43B02A?style=for-the-badge&logo=tesseract&logoColor=white" alt="Tesseract OCR">
   <img src="https://img.shields.io/badge/HTML5_&_JS-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5/JS">

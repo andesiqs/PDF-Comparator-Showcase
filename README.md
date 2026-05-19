@@ -1,51 +1,111 @@
 <p align="center">
-  <img src="assets/icon_256.png" alt="Logo PDF Comparator" width="150">
+  <img src="assets/icon_256.png" alt="PDF Comparator Logo" width="120">
 </p>
-  
-# **PDF Comparator | Computer Vision & Deep Learning**
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
-![Tesseract OCR](https://img.shields.io/badge/Tesseract_OCR-43B02A?style=for-the-badge&logo=tesseract&logoColor=white)
-![HTML5/JS](https://img.shields.io/badge/HTML5_&_JS-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+<h1 align="center">PDF Comparator</h1>
 
-> **Business Impact:** Engineered a Computer Vision solution that reduced engineering blueprint analysis time by **99%** (from 12 hours to 5 minutes) while eliminating human error in visual inspections.
+<p align="center">
+  <em>Computer Vision & Deep Learning for Engineering Blueprint Analysis</em>
+</p>
 
-## Project Overview
-**PDF Comparator** is an automated visual inspection tool built to detect structural and textual discrepancies between complex engineering drawings. 
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" alt="OpenCV">
+  <img src="https://img.shields.io/badge/Tesseract_OCR-43B02A?style=for-the-badge&logo=tesseract&logoColor=white" alt="Tesseract OCR">
+  <img src="https://img.shields.io/badge/HTML5_&_JS-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5/JS">
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Status-Production-brightgreen?style=flat-square">
+  <img src="https://img.shields.io/badge/Type-Proprietary-red?style=flat-square">
+  <img src="https://img.shields.io/badge/Role-Apprentice_Developer-blue?style=flat-square">
+</p>
+
+---
+
+## 🚀 Business Impact
+
+> Engineered a Computer Vision solution that reduced engineering blueprint analysis time by **99%** — from **12 hours** to **5 minutes** — while completely eliminating human error in visual inspections.
+
+---
+
+## 📌 Overview
+
+**PDF Comparator** is an automated visual inspection tool built to detect structural and textual discrepancies between complex engineering drawings.
 
 Initiated and developed independently to solve a critical operational bottleneck, the software processes large batches of high-resolution PDFs, compares them pixel-by-pixel, and generates interactive HTML/JS reports for the engineering team to review.
 
-*Note: This repository serves as a portfolio showcase. The source code and executable are proprietary and not publicly available to ensure corporate data compliance.*
+> ⚠️ **Note:** This repository is a portfolio showcase. Source code and executables are proprietary and not publicly available to ensure corporate data compliance.
 
-## Key Features
+---
 
-* **High-Performance Batch Processing:** Utilizes Python's `ThreadPoolExecutor` for multithreaded analysis, allowing the system to process entire directories of blueprints concurrently.
-* **Intelligent Noise Filtering:** Integrates **Tesseract OCR** to filter out false positives caused by text displacement, focusing only on genuine structural alterations.
-* **Interactive HTML Dashboard:** The pipeline ends with a dynamically generated frontend report containing a custom **Sync Scroll** engine, allowing technicians to pan and zoom both blueprints simultaneously in a side-by-side view.
-* **Adjustable Sensitivity Profiles:** Built-in thresholding profiles (Conservative to Extreme) and custom parameters (Min Area, Padding Margin) to adapt the Computer Vision engine to different types of engineering plants.
-* **Modern UI:** Built with `CustomTkinter`, providing a dark-mode, user-friendly interface for non-technical users to configure parameters and monitor execution.
+## ✨ Key Features
 
-## Architecture & Tech Stack
+| Feature | Description |
+|---|---|
+| ⚡ **Batch Processing** | Multithreaded via `ThreadPoolExecutor` — processes entire directories concurrently |
+| 🧠 **Noise Filtering** | Tesseract OCR filters false positives from text displacement, focusing on structural changes |
+| 📊 **Interactive Reports** | Dynamically generated HTML dashboards with custom **Sync Scroll** engine |
+| 🎛️ **Sensitivity Profiles** | Built-in presets (Conservative → Extreme) plus custom Min Area and Padding Margin parameters |
+| 🖥️ **Modern UI** | Dark-mode desktop app built with `CustomTkinter`, designed for non-technical users |
 
-1. **Image Processing Engine:** `pdf2image` & `poppler` for high-fidelity vector-to-raster conversion.
-   * `OpenCV` (cv2) for grayscale conversion, absolute differencing, binary thresholding, and contour detection.
-2. **Text Analysis (OCR):**  `pytesseract` to extract and compare text blobs, ignoring elements that simply moved coordinates without changing content.
-3. **Frontend / UX:**  `CustomTkinter` for the desktop application.
-   * Native `HTML/CSS/JavaScript` injected programmatically via Python to create the offline, interactive evidence reports.
+---
 
-## Visual Showcase
+## 🏗️ Architecture & Tech Stack
 
-### 1. Desktop Application Interface
-![App UI](assets/menu_UI.gif)  
+```
+PDF Input
+   │
+   ▼
+┌─────────────────────────────┐
+│   Image Processing Engine   │  pdf2image + poppler (vector → raster)
+│   OpenCV Pipeline           │  grayscale → diff → threshold → contours
+└─────────────┬───────────────┘
+              │
+              ▼
+┌─────────────────────────────┐
+│   Text Analysis (OCR)       │  pytesseract — filters moved-but-unchanged text
+└─────────────┬───────────────┘
+              │
+              ▼
+┌─────────────────────────────┐
+│   Report Generation         │  HTML/CSS/JS injected via Python
+│   Desktop Interface         │  CustomTkinter dark-mode GUI
+└─────────────────────────────┘
+```
+
+### Libraries & Tools
+
+- **`pdf2image`** + **`poppler`** — High-fidelity vector-to-raster PDF conversion
+- **`OpenCV (cv2)`** — Grayscale conversion, absolute differencing, binary thresholding, contour detection
+- **`pytesseract`** — OCR text extraction to filter non-structural differences
+- **`CustomTkinter`** — Modern dark-mode desktop interface
+- **Native HTML/CSS/JavaScript`** — Programmatically generated offline inspection reports
+
+---
+
+## 🎬 Visual Showcase
+
+### Desktop Application Interface
+
+![App UI](assets/menu_UI.gif)
 ![App UI](assets/menu_UI2.gif)
 
-### 2. Interactive Side-by-Side Report (Sync Scroll)
+---
+
+### Interactive Side-by-Side Report (Sync Scroll)
+
 ![Sync Scroll Demo](assets/sync_scroll.gif)
 
-### 3. Visual Evidence Detection
+---
+
+### Visual Evidence Detection
+
 ![Difference Detection](assets/detection_example.png)
 
----  
+---
 
-**Created by [Anderson Siqueira Souto](https://www.linkedin.com/in/anderson-siqueira-souto)** | **Role: Apprentice Developer**
+## 👤 Author
+
+**Anderson Siqueira Souto** — Apprentice Developer  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anderson-siqueira-souto)

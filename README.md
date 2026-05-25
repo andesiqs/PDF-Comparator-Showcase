@@ -104,7 +104,7 @@ PDF Input
 
 ### Interactive Side-by-Side Report (Sync Scroll)
 
-![Sync Scroll Demo](assets/sync_scroll.gif)
+![Sync Scroll Demo](assets/sync_scroll.mp4)
 
 ---
 

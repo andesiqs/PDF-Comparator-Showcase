@@ -100,8 +100,6 @@ PDF Input
 
 ![App UI](assets/menu_UI3.gif)
 
----
-
 ### Interactive Side-by-Side Report (Sync Scroll)
 
 ![Sync Scroll Demo](assets/sync_scroll.gif)
